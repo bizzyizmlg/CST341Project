@@ -118,6 +118,7 @@ public class MyStore {
 		}
 	}
 
+	// Bruce Brown
 	private void createCartItem() throws Exception {
 
 		System.out.println("Add item to cart...");
@@ -149,11 +150,14 @@ public class MyStore {
 		readProducts();
 	}
 
+	
+	
 	private void readCartItems() {
 		System.out.println("View (Read) cart...");
 		System.out.println();
 	}
-
+	
+	// Bruce Brown
 	private void deleteCartItem() throws Exception {
 		System.out.println("Delete from cart...");
 		System.out.println("===============");
